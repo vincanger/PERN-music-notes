@@ -64,7 +64,7 @@ router.post('/login', validate, async(req, res) => {
 //client-side verification checker
 router.post('/is-verify', authorize, (req, res) => {
     try {
-        // console.log('I'm reaching here');
+        console.log(`I'm reaching here`);
         res.json(true);
     } catch (error) {
         console.error(error.message);
