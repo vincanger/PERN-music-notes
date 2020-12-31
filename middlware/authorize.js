@@ -5,8 +5,8 @@ module.exports = function(req, res, next) {
     // Get token from header
    
     const token = req.header("token"); //the function
-    // console.log(req.headers); // the object
-    // console.log(token); 
+    console.log(req.headers); // the object
+    console.log(token); 
 
   
     // Check if not token
@@ -17,7 +17,9 @@ module.exports = function(req, res, next) {
     // Verify token
     try {
       //it is going to give the user id (user:{id: user.id})
+      console.log(process.env.JWT_SECRET);
       const verify = jwt.verify(token, process.env.JWT_SECRET);
+      console.log(verify);
   
       req.user = verify.user;
       next();
