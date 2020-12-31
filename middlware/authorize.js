@@ -17,7 +17,7 @@ module.exports = function(req, res, next) {
     // Verify token
     try {
       //it is going to give the user id (user:{id: user.id})
-      const verify = jwt.verify(token, process.env.jwtSecret);
+      const verify = jwt.verify(token, process.env.JWT_SECRET);
   
       req.user = verify.user;
       next();
