@@ -8,4 +8,4 @@ This was a learning project. My goals were:
     - (Authentication works fine on my local machine, but doesn't after being deployed to heroku. There seems to be a problem in the front-end request. Any help in this domain would be appreciated :thumbsup:)
 
 ## Preview
-<img src="https://github.com/vincanger/PERN-music-notes/blob/main/music-app-preview.gif" width="50%" height="50%" />
+<img src="https://github.com/vincanger/PERN-music-notes/blob/main/music-app-preview.gif" width="70%" height="70%" />
