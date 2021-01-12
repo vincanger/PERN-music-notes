@@ -6,6 +6,7 @@ This was a learning project. My goals were:
 4. Expirement with React and make it a full-stack app :white_check_mark:
 5. Deploy it successfully to Heroku :x:
     - (Authentication works fine on my local machine, but doesn't after being deployed to heroku. There seems to be a problem in the front-end request. Any help in this domain would be appreciated :thumbsup:)
+    - https://music-notes-pern.herokuapp.com/
 
 ## Preview
 <img src="https://github.com/vincanger/PERN-music-notes/blob/main/music-app-preview.gif" width="70%" height="70%" />
