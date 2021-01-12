@@ -9,3 +9,6 @@ This was a learning project. My goals were:
 
 ## Preview
 <img src="https://github.com/vincanger/PERN-music-notes/blob/main/music-app-preview.gif" width="70%" height="70%" />
+
+## Description
+This is a variation on the typical "TO-DO" app that most beginner coders make. As an music producer--and because I wanted a slight challenge--I adapted this full-stack PERN app to be a note taking app for musical ideas. A lot of my musical ideas come when listening to music. Often, I want to take an idea--a rhythm, a tone, a melody, or even a sample--from one song, and combine it with other ideas. This app allows the user to copy a link to the song or sample and leave a note next to it.
