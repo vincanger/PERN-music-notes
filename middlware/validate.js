@@ -1,4 +1,4 @@
-const validate = async (req, res, next) => {
+const validate = (req, res, next) => {
     const { email, name, password } = req.body;
     
   

@@ -9,8 +9,9 @@ const authorize = require('../middlware/authorize');
 
 // register
 router.post('/register', validate, async (req, res) => {
+    const { name, email, password } = req.body;
+
     try {
-        const { name, email, password } = req.body;
         const user = await pool.query(`SELECT * FROM users WHERE email = $1`, [email]);
 
         if(user.rows.length !== 0) {
@@ -28,7 +29,7 @@ router.post('/register', validate, async (req, res) => {
         // console.log(newUser.rows);
         // console.log(newUser.rows[0].id);
 
-        res.json({token});
+        return res.json({token});
 
     } catch (error) {
         console.error(error.message);
